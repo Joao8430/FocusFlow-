@@ -1,0 +1,71 @@
+/* Remove margens padrão do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Centraliza todo o conteúdo da página */
+body {
+    background: #121212; /* Fundo escuro */
+    color: white; /* Texto branco */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+/* Caixa principal */
+.container {
+    text-align: center;
+
+    background: #1e1e1e;
+
+    padding: 30px;
+
+    border-radius: 12px;
+
+    width: 320px;
+}
+
+/* Espaçamento abaixo do título */
+h1 {
+    margin-bottom: 20px;
+}
+
+/* Tamanho grande para o relógio */
+#timer {
+    font-size: 4rem;
+
+    margin-bottom: 20px;
+}
+
+/* Organização dos botões */
+.buttons {
+    display: flex;
+
+    gap: 10px;
+
+    justify-content: center;
+}
+
+/* Estilo dos botões */
+button {
+    padding: 10px 15px;
+
+    border: none;
+
+    border-radius: 6px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+/* Efeito ao passar o mouse */
+button:hover {
+    opacity: 0.8;
+}
